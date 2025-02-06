@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Isaac Newton</title>
+    <style>
+        
+        body {
+            font-family: "Open Sans", sans-serif;
+            background-color: #8cd6e9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .main-content {
+            width: 70%;
+            border-radius: 0.5cm;
+            background: rgb(92, 178, 204);
+            max-height: 400px;
+            padding: 60px;
+            box-shadow: 10px 10px 100px rgba(54, 181, 219, 0.1);
+            margin-top: 20px;
+            font-family: "Montserrat", sans-serif;
+            box-shadow: 10px 10px 100px rgba(244, 246, 247, 0.1);
+            margin-bottom: 5px;
+        }
+        h1 {
+            color: #0f0542;
+            text-align: center;
+            font-family: "Saira", sans-serif;
+        }
+        img {
+            width: 70%;
+            border-radius: 10px;
+            border-style: hidden;
+            border-inline-start: #061775;
+        }
+        p {
+            font-size: 18px;
+            color: #0c0c0c;
+        }
+        .timeline-container {
+            overflow-y: auto;
+            max-height: 400px;
+            width: 100px;
+            border-radius: 0.4cm;
+            padding: 80px;
+            background: #180361;
+            border: 1px solid #0c7eb3;
+            margin-left: 10px;
+            margin-bottom: 5px;
+            box-shadow: 10px 10px 100px rgba(244, 246, 247, 0.1);
+        }
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+        }
+        .event {
+            width: 200px;
+            height: max-content;
+            padding: 10px;
+            background: #6bc9e0;
+            border-radius: 2cm;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .content-wrapper {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 5px;
+        }
+        .wiki-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .wiki-link a {
+            font-size: 18px;
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .wiki-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="main-content">
+            <h1>Isaac Newton</h1>
+            <img src="https://w0.peakpx.com/wallpaper/19/234/HD-wallpaper-albert-einstein-einstein-eyes-glass-gray-inteligence-knowledge-math-mustache-old-science-thumbnail.jpg" alt="Isaac Newton">
+            <p><strong>Born:</strong> January 4, 1643</p>
+            <p><strong>Died:</strong> March 31, 1727</p>
+            <p>Isaac Newton was a mathematician, physicist, astronomer, and author who is widely recognized as one of the most influential scientists of all time. He formulated the laws of motion and universal gravitation, which laid the foundation for classical mechanics.</p>
+        </div>
+        <div class="timeline-container">
+            <div class="timeline">
+                <div class="event"><strong>1643</strong><br>Born in Woolsthorpe, England</div>
+                <div class="event"><strong>1661</strong><br>Enrolled at Cambridge University</div>
+                <div class="event"><strong>1665</strong><br>Developed early calculus</div>
+                <div class="event"><strong>1687</strong><br>Published Principia Mathematica</div>
+                <div class="event"><strong>1703</strong><br>Became President of the Royal Society</div>
+                <div class="event"><strong>1727</strong><br>Passed away in London</div>
+            </div>   
+        </div>
+    </div>
+</body>
+</html>
